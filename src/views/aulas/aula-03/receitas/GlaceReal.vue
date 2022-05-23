@@ -40,7 +40,120 @@
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Ingredientes
+          Limãozinho - Ingredientes
+        </h3>
+
+        <ul class="lista-check mb-0">
+          <li>Leite condensado integral 8% de gordura (400g - 1 lata)</li>
+          <li>
+            Creme de leite integral de 17% a 25% de gordura (200g - 1 caixinha)
+          </li>
+          <li>Raspas e suco de limão (2 a 3 unid - 2 a 3 unid)</li>
+          <li>Manteiga extra sem sal (15g - 1 col. sopa)</li>
+          <li>Corante em gel verde (A gosto)</li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg shadow my-5">
+        <h3 class="text-primary-color text-2xl font-semibold mb-5">
+          Limãozinho - Para finalizar os limãozinhos
+        </h3>
+
+        <ul class="lista-check mb-0">
+          <li>Açúcar refinado especial (250g)</li>
+          <li>Corante em gel verde (Q.B)</li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg shadow my-5">
+        <h3 class="text-primary-color text-2xl font-semibold mb-5">
+          Limãozinho - Para apresentar os docinhos
+        </h3>
+
+        <ul class="lista-check mb-0">
+          <li>Caixetas de papel quadradas na cor verde (50 unid)</li>
+          <li>Forminhas de papel na cor marron número 5 (50 unid)</li>
+          <li>
+            Fundo rendado para doces, no tamanho grande transparente com
+            florzinhas brancas (50 unid)
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg shadow my-5">
+        <h3 class="text-primary-color text-2xl font-semibold mb-5">
+          Limãozinho - Método de preparo
+        </h3>
+
+        <ol class="lista-numerica">
+          <li>Primeiramente, lave e seque os limões.</li>
+
+          <li>
+            Em seguida, com o ralador fino, rale somente a casca verde do limão,
+            esprema o suco de limão e leve ou ao micro-ondas, mexendo sempre,
+            após cada 30 segundos, até reduzir a uma pasta viscosa. Se preferir,
+            leve numa panela pequena ao fogo, mexendo sempre até reduzir.
+            Reserve.
+          </li>
+
+          <li>
+            Em uma panela, misture, com uma espátula ou fouet, todos os
+            ingredientes.
+          </li>
+
+          <li>
+            Mexa bem e leve ao fogo médio para alto, mexendo sempre, para que o
+            doce não queime na lateral e nem no fundo.
+          </li>
+
+          <li>
+            A característicaprincipal de docinho de enrolar,quando está pronto,
+            é que apreparação desprende do fundo dapanela.
+          </li>
+
+          <li>
+            Em seguida, passe para umbowl (não é necessário passar manteiga,
+            pois o doce já possui bastante gordura), envolva com filme plástico
+            e deixe descansando em temperatura ambiente de um dia para o outro.
+            Ou, se preferir,deixe-os na refrigeração de um dia para o outro.
+            Tire momentos antesde enrolar, para que o docinho nãofique “duro”.
+          </li>
+
+          <li>
+            Depois de totalmente frio, incorpore, com a ajuda de uma colher, as
+            raspas de limão, a “geleia” reduzida do limão e o corante em gel
+            verde.
+          </li>
+
+          <li>
+            Faça movimentos regulares e uniformes, para que o sabor se espalhe
+            por toda a massa.
+          </li>
+
+          <li>
+            Prove para se certificar-se se precisa de mais sabor de limão. Tenha
+            cuidado para não o deixar muito azedo. Lembre-se! O sabor se
+            intensifica com o passar dos dias.
+          </li>
+
+          <li>Em seguida, numa assadeira, coloque o açúcar refinado.</li>
+
+          <li>
+            Faça bolinhas com o peso de 15g, unte a mão com manteiga, passe pelo
+            açúcar, volte a bolear, coloque o cravinho bem no meio do docinho e
+            finalize com uma folha feita de glacê real.
+          </li>
+
+          <li>
+            Coloque no tapetinho em seguida, na forminha de brigadeiro e, por
+            fim, nas caixetas.
+          </li>
+        </ol>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg shadow my-5">
+        <h3 class="text-primary-color text-2xl font-semibold mb-5">
+          Glacê Real - Ingredientes
         </h3>
 
         <ul class="lista-check mb-0">
@@ -52,7 +165,7 @@
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Para tingir
+          Glacê Real - Para tingir
         </h3>
 
         <ul class="lista-check mb-0">
@@ -62,7 +175,7 @@
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Para aplicar o glacê
+          Glacê Real - Para aplicar o glacê
         </h3>
 
         <ul class="lista-check mb-0">
@@ -73,7 +186,7 @@
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Método de preparo
+          Glacê Real - Método de preparo
         </h3>
 
         <ol class="lista-numerica">
@@ -126,7 +239,7 @@
 
 <script>
 export default {
-  title: "Aula 03 - Receitas: Glacê Real",
+  title: "Aula 03 - Receitas: Limãozinho (Glacê Real)",
   components: {},
   data() {
     return {};

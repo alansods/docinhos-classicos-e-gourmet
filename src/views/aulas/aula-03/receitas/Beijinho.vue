@@ -69,11 +69,11 @@
         </h3>
 
         <ul class="lista-check mb-0">
-          <li>Caixetas de papel quadradas na cor vermelha (100unid)</li>
-          <li>Forminhas de papel na cor marron número 5 (100unid)</li>
+          <li>Caixetas de papel quadradas na cor vermelha (50 unid)</li>
+          <li>Forminhas de papel na cor marron número 5 (50 unid)</li>
           <li>
             Fundo rendado para doces, no tamanho grande transparente com
-            florzinhas brancas (100unid)
+            florzinhas brancas (50 unid)
           </li>
         </ul>
       </div>

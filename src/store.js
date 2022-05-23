@@ -111,7 +111,7 @@ export default new Vuex.Store({
       },
       {
         id: 3,
-        nome: "Glacê Real",
+        nome: "Limãozinho (Glacê Real)",
         imagem: "glace-real.jpg",
         tempo: "50min",
         porcoes: "7 porções",

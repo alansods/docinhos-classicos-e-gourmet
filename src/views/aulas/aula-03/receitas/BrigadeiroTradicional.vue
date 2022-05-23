@@ -58,9 +58,9 @@
 
         <ul class="lista-check mb-0">
           <li>Miçangas colorida (500g)</li>
-          <li>Tapetinho para doces (100 unid)</li>
-          <li>Forminha de papel marrom número 5 (100 unid)</li>
-          <li>Caixetas para doces (100 unid)</li>
+          <li>Tapetinho para doces (50 unid)</li>
+          <li>Forminha de papel marrom número 5 (50 unid)</li>
+          <li>Caixetas para doces (50 unid)</li>
         </ul>
       </div>
 
