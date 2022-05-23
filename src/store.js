@@ -39,7 +39,7 @@ export default new Vuex.Store({
         id: "3",
         numeroAula: "03",
         nomeAula: "Receituário",
-        descricaoAula: "Neste tópico iremos aprender receitas de doces tradicionais, tais como: canjica com milho verde e também milho em conserva, arroz doce saborizado com casca de laranja e especiarias, cocada baiana de colher entre outras receitas que você poderá aplicar de forma fácil e vender.",
+        descricaoAula: "Neste tópico iremos aprender receitas de docinhos tradicionais e gourmet, tais como: brigadeiro tradicional, beijinho, casadinho, brigadeiro de leite em pó com creme de avelã e muitas outras receitas deliciosas que você poderá aplicar de forma fácil e ganhar uma renda extra.",
         img: "aula-3.jpg",
         link: "/aula-03",
         receita_1_completa: false,
@@ -117,7 +117,7 @@ export default new Vuex.Store({
         porcoes: "7 porções",
         calorias: "200kcal",
         dificuldade: "fácil",
-        path: "/aula-03/glace-real",
+        path: "/aula-03/limaozinho",
         finalizada: false,
         skeleton: true
       },
