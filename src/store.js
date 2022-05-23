@@ -88,7 +88,7 @@ export default new Vuex.Store({
       {
         id: 1,
         nome: "Brigadeiro Tradicional",
-        imagem: "casadinho.jpg",
+        imagem: "brigadeiro-tradicional.jpg",
         tempo: "55min",
         porcoes: "12 porções",
         calorias: "100kcal",

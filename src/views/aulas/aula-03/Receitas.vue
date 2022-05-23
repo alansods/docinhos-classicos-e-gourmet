@@ -19,7 +19,11 @@
           :class="{ opacidade: receita.skeleton }"
           @click="$router.push({ path: receita.path })"
         >
-          <img v-if="receita.finalizada" class="icone-done shadow" src="../../../assets/img/padrao/check.svg" />
+          <img
+            v-if="receita.finalizada"
+            class="icone-done shadow"
+            src="../../../assets/img/padrao/check.svg"
+          />
           <div class="container-img">
             <img
               @load="receita.skeleton = false"
@@ -71,6 +75,12 @@ export default {
   gap: 35px;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .container-receitas {
+    justify-content: flex-start;
+  }
 }
 
 .receita-item {
