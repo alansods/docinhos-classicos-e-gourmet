@@ -151,7 +151,7 @@ export default {
     return {};
   },
   beforeCreate() {
-    //this.$store.commit("initialiseStore");
+    this.$store.commit("initialiseStore");
   },
   computed: {
 
