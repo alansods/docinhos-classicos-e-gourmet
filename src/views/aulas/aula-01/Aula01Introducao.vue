@@ -8,29 +8,11 @@
 
     <div
       id="container-bg-video"
-      class="
-        img-bg-aula
-        bg-cover
-        h-1/4
-        px-5
-        pb-10
-        md:py-8
-        xl:px-0
-        mx-auto
-        text-white
-      "
+      class="img-bg-aula bg-cover h-1/4 px-5 pb-10 md:py-8 xl:px-0 mx-auto text-white"
     >
       <div
         id="container-all-content-bg-video"
-        class="
-          w-full
-          xl:max-w-screen-lg
-          mx-auto
-          flex flex-col
-          xl:flex-row xl:items-center
-          pt-12
-          xl:pt-7 xl:pb-5
-        "
+        class="w-full xl:max-w-screen-lg mx-auto flex flex-col xl:flex-row xl:items-center pt-12 xl:pt-7 xl:pb-5"
       >
         <div id="titulo-curso" class="xl:w-3/4 text-left">
           <div class="flex items-center">
@@ -73,7 +55,6 @@
       class="w-full px-3 xl:px-0 xl:max-w-screen-lg xl:mx-auto mt-16"
     >
       <div class="bg-white p-8 rounded-lg shadow my-5">
-
         <p>
           Seguir as boas práticas de fabricação de alimentos é garantir uma
           correta higiene dos alimentos, do manipulador e do ambiente de
@@ -109,7 +90,10 @@
         </h3>
 
         <p>
-          Toda pessoa que lave, corte, rale, cozinhe e/ou prepare bebidas é considerada um manipulador de alimentos e estes, por sua vez, também devem seguir as especificações determinadas pela ANVISA, conforme abaixo:
+          Toda pessoa que lave, corte, rale, cozinhe e/ou prepare bebidas é
+          considerada um manipulador de alimentos e estes, por sua vez, também
+          devem seguir as especificações determinadas pela ANVISA, conforme
+          abaixo:
         </p>
 
         <ul class="lista-check">
@@ -125,14 +109,68 @@
 
       <div class="p-8 rounded-lg shadow my-5 text-white bg-red-500">
         <div class="flex items-center font-semibold text-2xl text-white mb-5">
-          <v-icon name="exclamation" class="mr-2 fill-current" scale="1.8"/>
+          <v-icon name="exclamation" class="mr-2 fill-current" scale="1.8" />
           <h3>Importante</h3>
         </div>
         <div>
           <p>
-            Todos que visitarem a área de manipulação de alimentos devem seguir as recomendações de boas práticas.
+            Todos que visitarem a área de manipulação de alimentos devem seguir
+            as recomendações de boas práticas.
           </p>
         </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg shadow my-5">
+        <h3 class="font-semibold text-primary-color text-xl mb-5">
+          1.3.  <em>Mise en place</em>
+        </h3>
+
+        <p>
+          Na rotina de cozinheiros (as), padeiros (as), confeiteiros (as),
+          salgadeiras (os) e todos que trabalham na produção de alimentos,
+          separar utensílios, pesar insumos, cortar frutas, legumes e/ou carnes,
+          enfim, deixar tudo pronto para o início de uma preparação é comum.
+          Essas atitudes caracterizam o tão conhecido  <em>Mise en place</em> (pronunciar
+          “mizãn plass”).
+        </p>
+
+        <p>
+          Fazer o mise in place para uma preparação, evita problemas, organiza o
+          espaço, economiza tempo, não desperdiça insumos e torna o processo
+          ágil.
+        </p>
+
+        <p>
+          Abaixo tem um passo a passo que irá lhe auxiliar para um  <em>Mise en place</em>
+          bem feito.
+        </p>
+
+        <ul class="lista-check">
+          <li>
+            Leia toda a receita, observando os detalhes, como tempo de
+            refrigeração, congelamento e/ou preaquecimento do forno;
+          </li>
+
+          <li>
+            Verifique se possui todos os ingredientes, utensílios e equipamentos necessários e, organize, todos devem estar limpos;
+          </li>
+
+          <li>
+            Pese os ingredientes em bowls individuais;
+          </li>
+
+          <li>
+            Descasque, pique, rale, esprema o que for pedido na receita;
+          </li>
+
+          <li>
+            Por fim, organize todo o material na bancada de acordo com a ordem de utilização.
+          </li>
+        </ul>
+        
+        <p>
+          Mão na massa!
+        </p>
       </div>
 
       <div class="flex justify-around mt-12">

@@ -50,6 +50,8 @@ export default new Vuex.Store({
         receita_6_completa: false,
         receita_7_completa: false,
         receita_8_completa: false,
+        receita_9_completa: false,
+        receita_10_completa: false,
       },
     ],
     navbarItems: [
@@ -85,97 +87,121 @@ export default new Vuex.Store({
     receitas: [
       {
         id: 1,
-        nome: "Beijinho",
-        imagem: "arroz-doce.jpg",
-        tempo: "25min",
-        porcoes: "8 porções",
-        calorias: "300kcal",
+        nome: "Brigadeiro Tradicional",
+        imagem: "casadinho.jpg",
+        tempo: "55min",
+        porcoes: "12 porções",
+        calorias: "100kcal",
         dificuldade: "fácil",
-        path: "/aula-03/arroz-doce",
+        path: "/aula-03/brigadeiro-tradicional",
         finalizada: false,
         skeleton: true
       },
       {
         id: 2,
-        nome: "Mungunzá doce",
-        imagem: "mugunza-doce.jpg",
-        tempo: "55min",
-        porcoes: "12 porções",
-        calorias: "100kcal",
+        nome: "Beijinho",
+        imagem: "beijinho.jpg",
+        tempo: "25min",
+        porcoes: "8 porções",
+        calorias: "300kcal",
         dificuldade: "fácil",
-        path: "/aula-03/mugunza-doce",
+        path: "/aula-03/beijinho",
         finalizada: false,
         skeleton: true
       },
       {
         id: 3,
-        nome: "Canjica de milho verde",
-        imagem: "canjica-de-milho-verde.jpg",
+        nome: "Glacê Real",
+        imagem: "glace-real.jpg",
         tempo: "50min",
         porcoes: "7 porções",
         calorias: "200kcal",
         dificuldade: "fácil",
-        path: "/aula-03/canjica-de-milho-verde",
+        path: "/aula-03/glace-real",
         finalizada: false,
         skeleton: true
       },
       {
         id: 4,
-        nome: "Canjica de milho em conserva",
-        imagem: "canjica-de-milho-em-conserva.jpg",
+        nome: "Casadinho",
+        imagem: "casadinho.jpg",
         tempo: "40min",
         porcoes: "7 porções",
         calorias: "200kcal",
         dificuldade: "fácil",
-        path: "/aula-03/canjica-de-milho-em-conserva",
+        path: "/aula-03/casadinho",
         finalizada: false,
         skeleton: true
       },
       {
         id: 5,
-        nome: "Cocada baiana de colher",
-        imagem: "cocada-baiana-de-colher.jpg",
+        nome: "Moranguinho",
+        imagem: "moranguinho.jpg",
         tempo: "30min",
         porcoes: "12 porções",
         calorias: "200kcal",
         dificuldade: "fácil",
-        path: "/aula-03/cocada-baiana-de-colher",
+        path: "/aula-03/moranguinho",
         finalizada: false,
         skeleton: true
       },
       {
         id: 6,
-        nome: "Pé de moleque",
-        imagem: "pe-de-moleque.jpg",
+        nome: "Olho de sogra",
+        imagem: "olho-de-sogra.jpg",
         tempo: "35min",
         porcoes: "16 porções",
         calorias: "200kcal",
         dificuldade: "fácil",
-        path: "/aula-03/pe-de-moleque",
+        path: "/aula-03/olho-de-sogra",
         finalizada: false,
         skeleton: true
       },
       {
         id: 7,
-        nome: "Brigadeiro de milho",
-        imagem: "brigadeiro-de-milho.jpg",
+        nome: "Brigadeiro de Churros (Gourmet)",
+        imagem: "brigadeiro-de-churros.jpg",
         tempo: "45min",
         porcoes: "85 porções",
         calorias: "200kcal",
         dificuldade: "médio",
-        path: "/aula-03/brigadeiro-de-milho",
+        path: "/aula-03/brigadeiro-de-churros",
         finalizada: false,
         skeleton: true
       },
       {
         id: 8,
-        nome: "Queijadinha",
-        imagem: "queijadinha.jpg",
+        nome: "Brigadeiro de Leite em pó com Creme de Avelã (Gourmet)",
+        imagem: "brigadeiro-leite-em-po.jpg",
         tempo: "60min",
         porcoes: "20 porções",
         calorias: "200kcal",
         dificuldade: "médio",
-        path: "/aula-03/queijadinha",
+        path: "/aula-03/brigadeiro-leite-em-po-com-creme-de-avela",
+        finalizada: false,
+        skeleton: true
+      },
+      {
+        id: 9,
+        nome: "Brigadeiro Drageado",
+        imagem: "brigadeiro-drageado.jpg",
+        tempo: "60min",
+        porcoes: "20 porções",
+        calorias: "200kcal",
+        dificuldade: "médio",
+        path: "/aula-03/brigadeiro-drageado",
+        finalizada: false,
+        skeleton: true
+      },
+      {
+        id: 10,
+        nome: "Brigadeiro de Maracujá com Creme de Avelã (Gourmet)",
+        imagem: "brigadeiro-de-maracuja.jpg",
+        tempo: "60min",
+        porcoes: "20 porções",
+        calorias: "200kcal",
+        dificuldade: "médio",
+        path: "/aula-03/brigadeiro-de-maracuja-com-creme-de-avela",
         finalizada: false,
         skeleton: true
       },
@@ -218,14 +244,14 @@ export default new Vuex.Store({
     },
     COMPLETAR_AULA_1(state) {
       if (!state.aulas[0].completa) {
-        state.progresso = state.progresso + 10
+        state.progresso = state.progresso + 0
       }
       state.aulas[0].completa = true
       localStorage.setItem('store', JSON.stringify(state))
     },
     COMPLETAR_AULA_2(state) {
       if (!state.aulas[1].completa) {
-        state.progresso = state.progresso + 10
+        state.progresso = state.progresso + 0
       }
       state.aulas[1].completa = true
       localStorage.setItem('store', JSON.stringify(state))
@@ -292,6 +318,22 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_8_completa = true
       state.receitas[7].finalizada = true
+      localStorage.setItem('store', JSON.stringify(state))
+    },
+    COMPLETAR_RECEITA_9(state) {
+      if (!state.aulas[2].receita_9_completa) {
+        state.progresso = state.progresso + 10
+      }
+      state.aulas[2].receita_9_completa = true
+      state.receitas[8].finalizada = true
+      localStorage.setItem('store', JSON.stringify(state))
+    },
+    COMPLETAR_RECEITA_10(state) {
+      if (!state.aulas[2].receita_10_completa) {
+        state.progresso = state.progresso + 10
+      }
+      state.aulas[2].receita_10_completa = true
+      state.receitas[9].finalizada = true
       localStorage.setItem('store', JSON.stringify(state))
     },
     SHOW_MODAL_COMPLETAR_AULA_1(state) {

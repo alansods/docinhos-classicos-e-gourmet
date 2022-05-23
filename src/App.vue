@@ -46,7 +46,7 @@ p:last-of-type {
 /* SCROLLBAR STYLE */
 /* width */
 ::-webkit-scrollbar {
-  width: 16px;
+  width: 20px;
   height: 16px;
 }
 
@@ -95,7 +95,7 @@ p:last-of-type {
 /* LISTA-NUMÉRICA */
 .lista-numerica{
   counter-reset: item;
-  margin-left: 30px;}
+  margin-left: 45px;}
 
 ol li {
   margin: 2rem 0;
@@ -113,10 +113,10 @@ ol li::before {
   content:counter(item)".";
   counter-increment: li;
   font-weight: bold;
-  font-size: 1.35rem;
+  font-size: 1.4rem;
   position: absolute;
-  line-height: 1;
-  left: -28px;
+  line-height: .88;
+  left: -38px;
 }
 
 .img-bg-apresentacao {
@@ -151,7 +151,7 @@ export default {
     return {};
   },
   beforeCreate() {
-    this.$store.commit("initialiseStore");
+    //this.$store.commit("initialiseStore");
   },
   computed: {
 

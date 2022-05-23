@@ -5,9 +5,9 @@
       class="w-full px-3 xl:px-0 xl:max-w-screen-lg xl:mx-auto mt-16"
     >
       <h3 class="text-center text-4xl font-bold text-primary-color">
-        {{$store.state.receitas[0].nome}}
+        {{ $store.state.receitas[2].nome }}
       </h3>
-      <div class="container-icones">
+      <!-- <div class="container-icones">
         <div class="icone">
           <img
             src="../../../../assets/img/icones-receitas/tempo-de-preparo.png"
@@ -24,31 +24,17 @@
           <img src="../../../../assets/img/icones-receitas/dificuldade.png" />
           <span>fácil</span>
         </div>
-      </div>
+      </div> -->
       <hr class="border-t-1 border-gray-300 my-5" />
-      <div class="md:grid md:grid-cols-2 flex flex-col gap-5 mt-10">
+      <div class="mt-10">
         <div class="rounded-lg">
           <div id="video-apresentacao" class="aspect-w-16 aspect-h-9">
             <youtube
-              video-id="JIQ49DetwmM"
+              video-id="8RaOEJi0YxE"
               class="border-white border-4 shadow-xl rounded-sm"
               @ended="ended"
             />
           </div>
-        </div>
-
-        <div class="bg-white px-8 py-6 rounded-lg shadow">
-          <h3 class="text-primary-color text-2xl font-semibold mb-5">
-            Equipamento e utensílios
-          </h3>
-
-          <ul class="lista-check mb-0">
-            <li>Fogão</li>
-            <li>Balança ou xicara medidora</li>
-            <li>Panela</li>
-            <li>Espátula</li>
-            <li>Bowl</li>
-          </ul>
         </div>
       </div>
 
@@ -58,52 +44,73 @@
         </h3>
 
         <ul class="lista-check mb-0">
-          <li>Leite condensado integral 8% de gordura (400g - 1 lata)</li>
-          <li>Creme de leite integral de 17% a 25% de gordura (200g - 1 caixinha)</li>
-          <li>Coco ralado industrial sem açúcar 100g (50g - ½ xícara)</li>
-          <li>Manteiga extra sem sal (15g - 1 colher de sopa)</li>
+          <li>Açúcar de confeiteiro (240g - 2 xícaras)</li>
+          <li>Claras (60g - 2 unid.)</li>
+          <li>Suco de limão (2g - A gosto)</li>
         </ul>
       </div>
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Para finalizar os beijinhos
+          Para tingir
         </h3>
 
         <ul class="lista-check mb-0">
-          <li>Coco em flocos ralado sem açúcar (200g)</li>
+          <li>Corante em gel verde folha (Q.b.)</li>
         </ul>
       </div>
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Para apresentar os docinhos
+          Para aplicar o glacê
         </h3>
 
         <ul class="lista-check mb-0">
-          <li>Caixetas de papel quadradas na cor vermelha (100unid)</li>
-          <li>Forminhas de papel na cor marron número 5 (100unid)</li>
-          <li>Fundo rendado para doces, no tamanho grande transparente com florzinhas brancas (100unid)</li>
+          <li>Saco de confeitar grande (1 unid)</li>
+          <li>Bico folha pequeno (1 unid)</li>
         </ul>
       </div>
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Modo de preparo
+          Método de preparo
         </h3>
 
-        <p>
-          Numa panela, misturar com espátula de silicone todos os ingredientes,
-          levar ao fogo médio, mexendo sempre, até soltar do fundo e das
-          laterais da panela. Em seguida, passe para um bowl (não é necessário
-          passar manteiga, pois o doce já possui bastante gordura), envolva com
-          filme plástico e deixe descansando em temperatura ambiente de um dia
-          para o outro, ou, caso necessário, deixe-os na refrigeração de 2h a
-          3h. Se preferir ainda, de um dia para o outro, tire momentos antes de
-          enrolar, para que o docinho não fique “duro”. Em seguida, unte
-          levemente as mãos com manteiga ou margarina sem sal, pese cada docinho
-          no peso de 15g e envolva nos flocos de coco.
-        </p>
+        <ol class="lista-numerica">
+          <li>Na batedeira, coloque a clara dentro dobowl.</li>
+
+          <li>
+            Bata por um minuto, acrescente em seguida o açúcar impalpável e mexa
+            bem para incorporar.
+          </li>
+
+          <li>
+            Batacom o batedor globo até que o glacêfique montado, ou seja, com
+            atextura firme e cor menos brilhante.
+          </li>
+
+          <li>
+            Junte o suco de limão e deixe no ponto firme, sem que caia do bowl
+            da bateira.
+          </li>
+
+          <li>
+            Deve-se, em média, bater por uns 5minutos. Antes de terminar
+            oprocesso, acrescente a quantidadede corante suficiente na
+            cordesejada.
+          </li>
+
+          <li>
+            Em seguida, passe para a manga(saco de confeitar), com o bico folha,
+            e faça a aplicação. Mantenha orestante do glacê sempre coberto, de
+            preferência com um pano de limpezalevemente úmido.
+          </li>
+
+          <li>
+            Isso evita que o glacê resseque com facilidade.Entretanto, depois de
+            feito o glacê, sua aplicação deverá ser imediata.
+          </li>
+        </ol>
       </div>
 
       <button
@@ -119,14 +126,14 @@
 
 <script>
 export default {
-  title: "Aula 03 - Receitas: Arroz doce",
+  title: "Aula 03 - Receitas: Glacê Real",
   components: {},
   data() {
     return {};
   },
   methods: {
     ended() {
-      this.$store.commit("COMPLETAR_RECEITA_1");
+      this.$store.commit("COMPLETAR_RECEITA_3");
     },
   },
   created() {

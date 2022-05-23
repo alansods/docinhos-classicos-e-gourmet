@@ -15,18 +15,19 @@
       >
         <div v-if="receita.skeleton" class="skeleton"></div>
         <div
-          class="flex flex-col" :class="{opacidade: receita.skeleton}"
+          class="flex flex-col"
+          :class="{ opacidade: receita.skeleton }"
           @click="$router.push({ path: receita.path })"
         >
-        
+          <img v-if="receita.finalizada" class="icone-done shadow" src="../../../assets/img/padrao/check.svg" />
           <div class="container-img">
             <img
               @load="receita.skeleton = false"
               :src="require(`@/assets/img/receitas/${receita.imagem}`)"
             />
           </div>
-          <h2>{{ receita.nome }}</h2>
-          <hr />
+          <h2 class="text-center">{{ receita.nome }}</h2>
+          <!-- <hr />
           <div class="container-icones">
             <div class="icone">
               <img
@@ -48,7 +49,7 @@
             <div class="icone" v-if="receita.finalizada">
               <img src="../../../assets/img/padrao/check.svg" />
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -58,12 +59,9 @@
 <script>
 export default {
   data() {
-    return {
-    };
+    return {};
   },
-  methods: {
-
-  },
+  methods: {},
 };
 </script>
 
@@ -141,8 +139,20 @@ hr {
 
 .icone img {
   width: auto;
-  height: 17px;
+  height: 17px !important;
   margin-right: 5px;
+}
+
+.icone-done {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  background: #fff;
+  border-radius: 50%;
+  padding: 5px;
 }
 
 @media (max-width: 600px) {

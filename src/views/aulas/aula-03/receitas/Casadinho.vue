@@ -5,49 +5,36 @@
       class="w-full px-3 xl:px-0 xl:max-w-screen-lg xl:mx-auto mt-16"
     >
       <h3 class="text-center text-4xl font-bold text-primary-color">
-        Pé de moleque
+        {{ $store.state.receitas[3].nome }}
       </h3>
-      <div class="container-icones">
+      <!-- <div class="container-icones">
         <div class="icone">
           <img
             src="../../../../assets/img/icones-receitas/tempo-de-preparo.png"
           />
-          <span>35min</span>
+          <span>25min</span>
         </div>
 
         <div class="icone">
           <img src="../../../../assets/img/icones-receitas/porcoes.png" />
-          <span>16 porções de 40g</span>
+          <span>8 porções de 150g</span>
         </div>
 
         <div class="icone">
           <img src="../../../../assets/img/icones-receitas/dificuldade.png" />
           <span>fácil</span>
         </div>
-      </div>
+      </div> -->
       <hr class="border-t-1 border-gray-300 my-5" />
-      <div class="md:grid md:grid-cols-2 flex flex-col gap-5 mt-10">
+      <div class="mt-10">
         <div class="rounded-lg">
           <div id="video-apresentacao" class="aspect-w-16 aspect-h-9">
             <youtube
-              video-id="zqUsUdqAUoo"
+              video-id="CeYinuWiITQ"
               class="border-white border-4 shadow-xl rounded-sm"
               @ended="ended"
             />
           </div>
-        </div>
-
-        <div class="bg-white px-8 py-6 rounded-lg shadow">
-          <h3 class="text-primary-color text-2xl font-semibold mb-5">
-            Equipamento e utensílios
-          </h3>
-
-          <ul class="lista-check mb-0">
-            <li>Fogão</li>
-            <li>Balança ou xícara medidora</li>
-            <li>Panela</li>
-            <li>Espátula</li>
-          </ul>
         </div>
       </div>
 
@@ -56,71 +43,53 @@
           Ingredientes
         </h3>
 
-        <ul class="lista-check md:grid md:grid-cols-2 mb-0">
-          <li>3 xícaras de amendoim sem sal (390g)</li>
-          <li>2 xícaras de açúcar (360g)</li>
-          <li>½ colher de margarina ou manteiga (30g)</li>
-          <li>1 colher de chá de bicarbonato de sódio</li>
+        <ul class="lista-check mb-0">
+          <li>Massa de brigadeiro (1 receita)</li>
+          <li>Massa branca do limãozinho (sem adicionar o limão) (1 receita)</li>
         </ul>
       </div>
 
       <div class="bg-white p-8 rounded-lg shadow my-5">
         <h3 class="text-primary-color text-2xl font-semibold mb-5">
-          Modo de preparo
+          Para finalizar os docinhos
+        </h3>
+
+        <ul class="lista-check mb-0">
+          <li>Açúcar refinado especial (500g)</li>
+        </ul>
+      </div>
+
+      <div class="bg-white p-8 rounded-lg shadow my-5">
+        <h3 class="text-primary-color text-2xl font-semibold mb-5">
+          Método de preparo
         </h3>
 
         <ol class="lista-numerica">
           <li>
-            Numa panela coloque o açúcar e leve ao fogo médio mexendo sempre até
-            chegar na cor caramelo, cuidado para não queimar.
+            Prepare as duas massas de doces de acordo com o receituário (1 receita de brigadeiro tradicional e 1 receita de brigadeiro de massa branca).
           </li>
 
           <li>
-            Em seguida junte a margarina e bicarbonato de sódio e mexa bem.
+            A mesma massa utilizada para se fazer o limãozinho, porém, sem adiconar o suco de limão e nem as raspas. 
           </li>
 
           <li>
-            Logo mais, acrescente o amendoim, envolva bem, sobre uma bancada ou
-            mesa untada com margarina, coloque o pé de moleque faça corte em
-            quadrado.
+            Faça 1(uma) bolinha de cada massa, depois boleie as duas bolinhas de docinhos. 
           </li>
 
-          <li>Espere esfriar para servir.</li>
-        </ol>
-      </div>
-
-      <div class="bg-green-400 p-8 rounded-lg shadow my-5 text-white">
-        <div class="flex items-center font-semibold text-2xl text-white mb-5">
-          <v-icon name="bookmark" class="mr-2 fill-current" scale="1.8" />
-          <h3>Lembrete</h3>
-        </div>
-        <div>
           <p>
-            Para facilitar o corte do seu pé de moleque, corte ainda quente,
-            pois o açúcar não estará cristalizado. Isso facilitará o corte do
-            doce.
+            Em seguida, passe no açúcar refinado, coloque nos tapetinhos, nas forminhas e por fim nas caixetas. 
           </p>
-        </div>
+
+          <li>
+            Finalize, se preferir, com um carimbo para doce.
+          </li>
+        </ol>
       </div>
 
       <button
         @click.prevent="$router.push('/aula-03')"
-        class="
-          mx-auto
-          bg-primary-color
-          xl:hover:bg-primary-color-hover
-          xl:transform
-          xl:hover:-translate-y-1
-          xl:transition-all
-          h-12
-          w-full
-          md:w-60
-          rounded-lg
-          text-white
-          flex
-          justify-center
-          items-center
-        "
+        class="mx-auto bg-primary-color xl:hover:bg-primary-color-hover xl:transform xl:hover:-translate-y-1 xl:transition-all h-12 w-full md:w-60 rounded-lg text-white flex justify-center items-center"
       >
         <v-icon class="icone-setas mr-3" name="arrow-left" />
         Voltar para receitas
@@ -131,14 +100,14 @@
 
 <script>
 export default {
-  title: "Aula 03 - Receitas: Pé de moleque",
+  title: "Aula 03 - Receitas: Casadinho",
   components: {},
   data() {
     return {};
   },
   methods: {
     ended() {
-      this.$store.commit("COMPLETAR_RECEITA_6");
+      this.$store.commit("COMPLETAR_RECEITA_4");
     },
   },
   created() {
@@ -173,5 +142,9 @@ export default {
   width: auto;
   height: 17px;
   margin-right: 5px;
+}
+
+svg {
+  fill: white;
 }
 </style>

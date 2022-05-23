@@ -33,20 +33,6 @@
           </p>
         </div>
 
-        <!-- <div
-          id="container-video-apresentacao"
-          class="w-full md:w-2/4 2xl:w-2/5 mx-auto my-12 xl:my-4"
-        >
-          <div id="video-apresentacao" class="aspect-w-16 aspect-h-9">
-            <iframe
-              class="border-white border-4 shadow-xl rounded-sm"
-              src="https://www.youtube.com/embed/93wkCvje2ro"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div> -->
       </div>
     </div>
 

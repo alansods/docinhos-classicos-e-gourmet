@@ -98,7 +98,7 @@
 import NavButton from "@/components/NavButton";
 
 export default {
-  title: "Aula 03 - Receitas",
+  title: "Aula 03 - Receituário",
   components: { NavButton },
 
   created() {
