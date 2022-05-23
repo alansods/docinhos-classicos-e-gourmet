@@ -57,7 +57,7 @@ const routes = [
       },
       {
         path: "limaozinho",
-        name: "Aula 03 - Receita: Limãozinho (Glacê Real)",
+        name: "Aula 03 - Receita: Limãozinho",
         component: GlaceReal,
       },
       {

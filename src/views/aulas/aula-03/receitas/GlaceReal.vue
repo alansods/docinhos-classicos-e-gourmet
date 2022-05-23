@@ -239,7 +239,7 @@
 
 <script>
 export default {
-  title: "Aula 03 - Receitas: Limãozinho (Glacê Real)",
+  title: "Aula 03 - Receitas: Limãozinho",
   components: {},
   data() {
     return {};
